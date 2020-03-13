@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Friends Forever</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+    body{    
+    font-family: 'Roboto Condensed', sans-serif;
+        background-image: url(testmonial-bg.jpg);
+        height: 100vh;
+        background-size: cover;
+        
+}
+
+  .our-team{
+    padding: 30px 0 40px;
+    background: #f7f5ec;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+      margin-top: 220px;
+      
+}
+.our-team .pic{
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 50px;
+    z-index: 1;
+    position: relative;
+}
+.our-team .pic:before{
+    content: "";
+    width: 100%;
+    height: 0;
+    border-radius: 50%;
+    background: #08d3ee;
+    position: absolute;
+    bottom: 135%;
+    right: 0;
+    left: 0;
+     opacity: 0.9;
+    transform: scale(3);
+    transition: all 0.3s linear 0s;
+}
+.our-team:hover .pic:before{ height: 100%; }
+.our-team .pic:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #08d3ee;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.our-team .pic img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 0.9s ease 0s;
+}
+.our-team:hover .pic img{
+    box-shadow: 0 0 0 14px #f7f5ec;
+    transform: scale(0.7);
+    
+}
+.our-team .team-content{ margin-bottom: 30px; }
+.our-team .title{
+    font-size: 16px;
+    font-weight: 700;
+    color: #4e5052;     
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.our-team .post{
+    display: block;
+    font-size: 15px;
+    color: #4e5052;
+    text-transform:capitalize;
+}
+.our-team .social{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background:hsla(66, 92%, 51%, 0.795);
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover .social{ bottom: 0; }
+.our-team .social li{ display: inline-block; }
+.our-team .social li a{
+    display: block;
+    padding: 10px;
+    font-size: 17px;
+    color: #fff;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+.our-team .social li a:hover{
+    color: hsl(150, 92%, 47%);
+    background: #f7f5ec;
+}
+@media only screen and (max-width: 990px){
+    .our-team{ margin-bottom: 30px; }
+} 
+.w3layouts_copy_right {
+    padding: 1.0em 0;
+    text-align: center;
+	background:-webkit-linear-gradient(#053c61,#053c61);
+	background:-moz-linear-gradient(#053c61,#053c61);
+	background:-ms-linear-gradient(#053c61,#053c61);
+    background: linear-gradient(to right bottom,#053c61,#053c61);
+}
+.w3layouts_copy_right p {
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 1.0em;
+}
+.w3layouts_copy_right p a{
+	color:#002147;
+	text-decoration:none;
+}
+.w3layouts_copy_right p a:hover{
+	color:#fff;
+}
+
+</style>
+</head>
+<body>
+    <div class="container">
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="our-team">
+                <div class="pic">
+                    <img src="pic.jpg">
+                </div>
+                <div class="team-content">
+                    <h3 class="title">MAYANK</h3>
+                    <span class="post">ANAND</span>
+                </div>
+                <ul class="social">
+                    <li><a href="https://www.facebook.com/mayankanand0270" class="fa fa-facebook"></a></li>
+                    <li><a href="https://www.instagram.com/mayankk______/" class="fa fa-instagram"></a></li>
+                    <li><a href="#" class="fa fa-google-plus"></a></li>
+                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                </ul>
+            </div>
+        </div>
+ 
+        <div class="col-md-3 col-sm-6">
+            <div class="our-team">
+                <div class="pic">
+                    <img src="sashi.jpg">
+                </div>
+                <div class="team-content">
+                    <h3 class="title">SHASHIKANT</h3>
+                    <span class="post">JHA</span>
+                </div>
+                <ul class="social">
+                    <li><a href="https://www.facebook.com/profile.php?id=100005447267214" class="fa fa-facebook"></a></li>
+                    <li><a href="https://www.instagram.com/shashi_kant_2208/" class="fa fa-instagram"></a></li>
+                    <li><a href="#" class="fa fa-google-plus"></a></li>
+                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="our-team">
+                <div class="pic">
+                    <img src="shubham.jpeg">
+                </div>
+                <div class="team-content">
+                    <h3 class="title">KUMAR</h3>
+                    <span class="post">SHUBHAM</span>
+                </div>
+                <ul class="social">
+                    <li><a href="https://www.facebook.com/profile.php?id=100006555995848" class="fa fa-facebook"></a></li>
+                    <li><a href="https://www.instagram.com/kumarshubham1322/" class="fa fa-instagram"></a></li>
+                    <li><a href="#" class="fa fa-google-plus"></a></li>
+                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="our-team">
+                <div class="pic">
+                    <img src="gyanu.jpg">
+                </div>
+                <div class="team-content">
+                    <h3 class="title">KUMAR</h3>
+                    <span class="post">GYANU</span>
+                </div>
+                <ul class="social">
+                    <li><a href="https://www.facebook.com/sinha.gyanu" class="fa fa-facebook"></a></li>
+                    <li><a href="https://www.instagram.com/gyanusinha3/" class="fa fa-instagram"></a></li>
+                    <li><a href="#" class="fa fa-google-plus"></a></li>
+                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+            <div class="our-team">
+                <div class="pic">
+                    <img src="pyatyush.jpg">
+                </div>
+                <div class="team-content">
+                    <h3 class="title">PRATYUSH</h3>
+                    <span class="post">PRANJAL</span>
+                </div>
+                <ul class="social">
+                    <li><a href="https://www.facebook.com/pratyush.pranjal.79" class="fa fa-facebook"></a></li>
+                    <li><a href="https://www.instagram.com/pratyushp305/" class="fa fa-instagram"></a></li>
+                    <li><a href="#" class="fa fa-google-plus"></a></li>
+                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+</div>
+
+<div class="w3layouts_copy_right">
+	<div class="container">
+		<p>© Friends Forever. All rights reserved | Design for Friends by <a href="#">Mayank.</a></p>
+	</div>
+</div>
+
+</body>
+</html>
